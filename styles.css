@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FF9933; /* Saffron color from Indian flag */
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #138808; /* Green color from Indian flag */
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000080; /* Navy Blue, often used in Indian designs */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+a#download-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF9933; /* Saffron color from Indian flag */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}

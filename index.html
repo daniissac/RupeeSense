@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RupeeSense: Indian Budget Analyzer</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="manifest" href="./manifest.json">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx-js-style@1.2.0/dist/xlsx.bundle.js"></script>
+</head>
+<body>
+    <header>
+        <h1>RupeeSense: Indian Budget Analyzer</h1>
+    </header>    <main>
+        <section id="upload-section">
+            <h2>Upload Statements</h2>
+            <input type="file" id="bank-statement" accept=".pdf" multiple>
+            <label for="bank-statement">Bank Statements (PDF)</label>
+            <input type="file" id="credit-card-statement" accept=".pdf" multiple>
+            <label for="credit-card-statement">Credit Card Statements (PDF)</label>
+        </section>
+        <section id="generate-section">
+            <button id="generate-button">Generate Combined Excel</button>
+        </section>
+        <section id="download-section">
+            <a id="download-link" style="display: none;">Download Combined Excel</a>
+        </section>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html></html></html>
