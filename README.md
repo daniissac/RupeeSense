@@ -42,7 +42,8 @@ We welcome feedback and contributions to improve RupeeSense. Please open an issu
 
 ## License
 
-RupeeSense is open-source software licensed under the MIT license.
+RupeeSense is open-source software under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 ## Disclaimer
 
