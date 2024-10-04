@@ -1,6 +1,6 @@
-# RupeeSense: Indian Budget Analyzer
+# RupeeSense
 
-RupeeSense is a Progressive Web App (PWA) designed to help Indian users analyze their budget and expenses by processing bank and credit card statements.
+RupeeSense is a Progressive Web App (PWA) designed to help India analyze their budget and expenses by processing bank and credit card statements.
 
 ## Features
 
